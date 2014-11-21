@@ -53,12 +53,16 @@ header {
     background-image: url(../images/billboard.JPG);
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 10px solid #fff;
+    border-top: 15px solid #fff;
     height: 30em;
 }
 
 .billboard {
     
+}
+
+a { 
+    text-decoration: none;
 }
 
 .sign-up {
@@ -68,13 +72,14 @@ header {
     font-size: 1.25em;
     text-align: center;
     color: #1a4464;
-    margin: 0 auto 0 auto;
+    margin: auto;
     padding-top: 1.5em;
 }    
 
-a { 
-    text-decoration: none;
-}
+.logo {
+    display: block;
+    margin: auto;  
+}    
 
 h1 {
     font-size: 3em;
@@ -86,6 +91,11 @@ h1 {
     text-align: center;
     padding: .25em 5%;
 }
+
+.intro {
+    text-align: center;
+}
+
 .img-flex {
     display: block;
     width: 100%;

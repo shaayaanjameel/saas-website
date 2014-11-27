@@ -93,7 +93,6 @@ h1 {
 
 .icons {
     width: 20%;
-    margin: auto;
 }
 
 figcaption {
@@ -114,7 +113,10 @@ footer {
 }    
 
 @media only screen and (min-width: 25em) {
-
+    .icons {
+        width: 15%;
+    }
+    
 }
 
 @media only screen and (min-width: 38em) {
@@ -123,11 +125,10 @@ footer {
         padding: 3em 0 .5em 0;
     }    
     
-    
 }
 
 @media only screen and (min-width: 60em) {
-   
+    
     
 }
 

@@ -53,7 +53,7 @@ header {
     background-image: url(../images/billboard.JPG);
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 15px solid #fff;
+    border-top: 20px solid #CE3229;
     height: 30em;
 }
 
@@ -67,18 +67,17 @@ a {
 
 .sign-up {
     width: 5em;
-    background: #fff;
+    background: #CE3229;
     display: block;
     font-size: 1.25em;
     text-align: center;
-    color: #1a4464;
+    color: #fff;
     margin: auto;
     padding-top: 1.5em;
 }    
 
 .logo {
-    display: block;
-    margin: auto;  
+    display: block;  
 }    
 
 h1 {
@@ -96,11 +95,22 @@ h1 {
     text-align: center;
 }
 
+.icons {
+    width: 20%;    
+}
+
+figcaption {
+    text-align: center;
+}
+
 .img-flex {
     display: block;
     width: 100%;
 }
 
+footer {
+    background: #CE3229;
+}    
 
 @media only screen and (min-width: 25em) {
 

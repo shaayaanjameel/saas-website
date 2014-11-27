@@ -69,7 +69,7 @@ a {
     text-align: center;
     color: #fff;
     margin: auto;
-    padding-top: 1.5em;
+    padding: 1.5em 0 .5em 0;
 }    
 
 .logo {
@@ -109,14 +109,28 @@ footer {
     background: #CE3229;
 }    
 
+.social-media {
+    width: 20%;   
+}    
+
 @media only screen and (min-width: 25em) {
 
 }
 
 @media only screen and (min-width: 38em) {
+    .sign-up { 
+        margin: 0 0 0 2em;
+        padding: 3em 0 .5em 0;
+    }    
+    
     
 }
 
 @media only screen and (min-width: 60em) {
+   
+    
+}
+
+@media only screen and (min-width: 90em) {
  
 }

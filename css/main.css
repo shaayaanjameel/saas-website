@@ -76,10 +76,6 @@ a {
     display: block;  
 }    
 
-h1 {
-    font-size: 3em;
-}
-
 .tagline {
     margin: 2em 0;
     color: #1a4464;
@@ -93,6 +89,11 @@ h1 {
 
 .icons {
     width: 20%;
+}
+
+.tour-heading {
+    text-align: center;
+    color: #1a4464; 
 }
 
 figcaption {

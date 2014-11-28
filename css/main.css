@@ -78,7 +78,7 @@ a {
 
 .tagline {
     margin: 2em 0;
-    color: #1a4464;
+    color: #fff;
     text-align: center;
     padding: .25em 5%;
 }
@@ -116,10 +116,6 @@ footer {
     width: 40px;   
 }    
 
-@media only screen and (min-width: 25em) {
-    
-}
-
 @media only screen and (min-width: 38em) {
     .sign-up { 
         margin: 0 0 0 2em;
@@ -137,9 +133,5 @@ footer {
     header {
         height: 50em;
     }        
-    
-}
-
-@media only screen and (min-width: 90em) {
- 
+       
 }

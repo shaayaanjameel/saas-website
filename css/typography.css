@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 "Open Sans", sans-serif;
+  font: normal 100%/1.5 "Lato", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -144,5 +144,5 @@ sub {
 
 h1, h2, h3, h4, h5, h6,
 .brand-family {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", sans-serif;
 }

@@ -53,7 +53,7 @@ header {
     background-image: url(../images/billboard.JPG);
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 20px solid #E16963;
+    border-top: 20px solid #97140B;
     height: 30em;
 }
 
@@ -63,13 +63,13 @@ a {
 
 .sign-up {
     width: 5em;
-    background: #E16963;
+    background: #97140B;
     display: block;
     font-size: 1.25em;
     text-align: center;
     color: #fff;
     margin: auto;
-    padding: 1.5em 0 .5em 0;
+    padding: .5em 0;
 }    
 
 .logo {
@@ -108,7 +108,7 @@ figcaption {
 }
 
 footer {
-    background: #E16963;
+    background: #97140B;
     text-align: center;
 }    
 

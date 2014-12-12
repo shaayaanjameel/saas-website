@@ -145,6 +145,7 @@ figcaption {
 
 .masthead {
     color: #97140B;
+    overflow: hidden;
 }
 
 .logo { 
@@ -177,7 +178,7 @@ figcaption {
     color: #fff;
 }
 
-.pricingtitles {
+.titles {
     text-align: center;
 }    
 
@@ -199,10 +200,20 @@ figcaption {
     display: block;
     margin: 0 auto;
     line-height: 80px;
+    text-align: center;
 }
 
 .button:hover {
     color: #ED7F34;   
+}    
+
+form {
+    margin: 0 auto;
+    max-width: 60em;
+}
+
+form div {
+    margin: 0 0 1.5em 0;   
 }    
 
 footer {

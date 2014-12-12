@@ -121,6 +121,9 @@ figcaption {
     display: block;
     width: 100%;
 }
+.pricing {
+    text-align: center;   
+}    
 
 footer {
     background: #97140B;

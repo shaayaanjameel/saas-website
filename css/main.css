@@ -267,6 +267,15 @@ input {
     border: 1px solid #ccc;
 }
 
+.thankyou {
+    text-align: center;
+    color: #ED7F34;
+}    
+
+.thankyou2 {
+    text-align: center;
+}
+
 footer {
     background: #97140B;
     text-align: center;

@@ -105,7 +105,9 @@ a {
 .caption {
     margin: 1em;
     border: 2px solid #fff;
-}    
+    max-width: 30em;
+    text-align: center;
+}   
 
 .tagline {
     margin: auto;
@@ -272,6 +274,15 @@ footer {
     }    
     
 }
+
+@media only screen and (min-width: 32em) {
+    .caption {
+        margin: auto;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+}    
 
 @media only screen and (min-width: 38em) {
     .log-in { 

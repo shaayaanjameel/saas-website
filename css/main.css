@@ -227,6 +227,10 @@ figcaption {
     color: #ED7F34;   
 }    
 
+.questions {
+    max-width: 60em;   
+}    
+
 p strong {
     color: #ED7F34; 
     max-width: 38em;

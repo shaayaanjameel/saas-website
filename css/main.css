@@ -84,12 +84,14 @@ a {
     text-decoration: none;
 }
 
+/*
 .caption {
     margin: 1em;
     border: 2px solid #fff;
     max-width: 30em;
     text-align: center;
 }   
+*/
 
 .tagline {
     margin: auto;
@@ -107,23 +109,23 @@ a {
 }
 
 .button {
-    border-radius: 50%;
-    width: 90px;
-    height: 90px;
-    border: 3px solid #fff;
-    background: #97140B;
+    border-radius: 25px;
+    width: 150px;
+    height: 45px;
+    border: 2px solid #fff;
+    background: #343b4d;
     color: #fff;
     box-shadow: 0 0 3px gray;
     position: relative;
     display: block;
     margin: auto;
     margin-top: 1em;
-    line-height: 80px;
+    line-height: 40px;
     text-align: center;
 }
 
 .button:hover {
-    color: #ED7F34;   
+    background-color: #a5b2c2;   
 }
 
 .intro {
@@ -191,41 +193,123 @@ footer {
 }
 
 .masthead {
-    background-color: #97140B;
+    background-color: #343b4d;
+  padding: 1em 0;
 }
 
-/*
-.logo2 { 
-    width: 7em;
-    height: auto;
-    float: left;
-    padding-top: .5em;
-    padding-left: .5em;
-}    
-*/
+.logo2 {
+  width: 10em;
+  margin: 1em 1em -1em;
+}
 
+.nav {
+  text-align: center;
+  color: white;
+  border: 2px solid #fff;
+  width: 6em;
+  display: inline-block;
+  margin: 1em 0;
+  padding: .25em;
+}
 
-/*
-.logomain {
-    margin: auto;
+.nav:hover {
+  background-color: #a5b2c2;
+}
+
+.titles {
     text-align: center;
-    display: block;  
-    width: 7em;
-    height: auto;
-    padding-top: 1.5em;
-}   
-*/
+  color: #343b4d;
+  margin: .5em 0 0;
+}
 
-    
-.nav ul {
+.pricing {
+    border: 3px solid #343b4d; 
+    text-align: center;  
+    padding-bottom: 1em;
+    max-width: 20em;
+  height: 22.5em;
+  transition: all .2s ease-in-out;
+}  
+
+.pricing:hover {
+  transform: scale(1.1); 
+}
+
+.pricingtitles {
+    margin: 0;
+    color: white;
+  background-color: #343b4d;
+}  
+
+.pricingfeatures {
     padding: 0;
+    list-style: none;
+    text-align: center;
+  margin-top: .5em;
+}
+
+.pricing figcaption {
+  text-align: center;
+  background-color: #343b4d;
+  color: white;
+  padding-bottom: .5em;
+  margin: 0;
+}
+
+.buttonp1 {
+    border-radius: 25px;
+    width: 150px;
+    height: 45px;
+    border: 2px solid #fff;
+    background: #343b4d;
+    color: #fff;
+    box-shadow: 0 0 3px gray;
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 7.5em;
+    line-height: 40px;
+    text-align: center;
+}
+
+.buttonp1:hover {
+    background-color: #a5b2c2;   
+}
+
+.buttonp2 {
+    border-radius: 25px;
+    width: 150px;
+    height: 45px;
+    border: 2px solid #fff;
+    background: #343b4d;
+    color: #fff;
+    box-shadow: 0 0 3px gray;
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 4.5em;
+    line-height: 40px;
+    text-align: center;
+}
+
+.buttonp2:hover {
+    background-color: #a5b2c2;   
+}
+
+p strong {
+    color: #a5b2c2; 
+    max-width: 20em;
+}    
+/*
+.nav ul {
+    padding: .25em;
     margin: 0;
 }
 
 .nav li {
     display: inline-block;
-    margin: 0;
-    padding: 0;
+  padding: .25em;
+  border: 2px solid #fff;
 }
 
 .nav a,
@@ -242,37 +326,10 @@ footer {
     background-color: #434444;
     color: #fff;
 }
+*/
 
 
-.titles {
-    text-align: center;
-    margin: 0;
-    color: #1a4464;
-}    
 
-.pricing {
-    border: 3px solid #434444; 
-    text-align: center;  
-    padding-bottom: 1em;
-    max-width: 20em;
-}  
-
-.pricingtitles {
-    margin: 0;
-    color: #1a4464; 
-}  
-
-.pricingfeatures {
-    padding: 0;
-    list-style: none;
-    text-align: center;
-}  
-    
-
-p strong {
-    color: #ED7F34; 
-    max-width: 38em;
-}    
 
 form {
     margin: 0 auto;
@@ -310,26 +367,32 @@ input {
 
 
 
+/*
 @media only screen and (min-width: 25em) {
     .pricing {
         margin: 0 auto;
     }    
 
 }    
+*/
     
 @media only screen and (min-width: 32em) {
+/*
     .caption {
         margin: auto;
         margin-bottom: 1em;
         margin-top: 1em;
     }
+*/
 
 }    
 
 @media only screen and (min-width: 38em) {    
+/*
     .caption {
         margin-top: 12em;
     }   
+*/
     
 /*
     .logomain {
@@ -338,9 +401,11 @@ input {
     }
 */
     
+/*
     .subhead {
         display: block;
     }
+*/
     
     .intro {
         margin: auto;
@@ -349,14 +414,18 @@ input {
 }
 
 @media only screen and (min-width: 50em) {
+/*
     .questions {
         padding-right: 2em;
     }
+*/
     
 }    
 
 @media only screen and (min-width: 60em) {
+/*
     .caption {
         margin-top: 22em;
     }   
+*/
 }

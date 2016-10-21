@@ -69,38 +69,20 @@ body {
     top: 0;
 }
 
+/*
 .banner {
     overflow: hidden;
-    background-image: url(../images/billboard.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 20px solid #97140B;
     height: 30em;
+}
+*/
+
+.billboardimg {
+  width: 100%;
 }
 
 a { 
     text-decoration: none;
 }
-
-.log-in {
-    width: 5em;
-    background: #97140B;
-    display: block;
-    font-size: 1.25em;
-    text-align: center;
-    color: #fff;
-    margin: auto;
-    padding: .5em 0;
-}    
-
-.logomain {
-    margin: auto;
-    text-align: center;
-    display: block;  
-    width: 7em;
-    height: auto;
-    padding-top: 1.5em;
-}   
 
 .caption {
     margin: 1em;
@@ -124,9 +106,48 @@ a {
     font-weight: 300;
 }
 
+.button {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    border: 3px solid #fff;
+    background: #97140B;
+    color: #fff;
+    box-shadow: 0 0 3px gray;
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    line-height: 80px;
+    text-align: center;
+}
+
+.button:hover {
+    color: #ED7F34;   
+}
+
 .intro {
     text-align: center;
     max-width: 45em;
+}
+
+.logo {
+  width: 30%;
+  margin: 5em auto 1em;
+}
+
+.intro p {
+  margin-bottom: 5em;
+}
+
+.features {
+  margin-bottom: 2em;
+}
+
+.hfeatures {
+  text-align: center;
+  color: #343b4d;
+  margin: 1em 0;
 }
 
 .icons {
@@ -137,24 +158,64 @@ a {
 
 .tour-heading {
     text-align: center;
-    color: #1a4464; 
+    color: #343b4d; 
 }
 
 figcaption {
-    text-align: center;
+  text-align: center;
+  max-width: 20em;
+  margin: 0 auto 1em;
+}
+
+footer {
+  background: #343b4d;
+  text-align: center;
+}    
+
+.footer-nav {
+  color: white;
+  border: 2px solid #fff;
+  width: 6em;
+  display: inline-block;
+  margin: 1em 0;
+  padding: .25em;
+}
+
+.footer-nav:hover {
+  background-color: #a5b2c2;
+}
+
+.social-media {
+    width: 3em;
+  margin: .5em .25em;
 }
 
 .masthead {
     background-color: #97140B;
 }
 
-.logo { 
+/*
+.logo2 { 
     width: 7em;
     height: auto;
     float: left;
     padding-top: .5em;
     padding-left: .5em;
 }    
+*/
+
+
+/*
+.logomain {
+    margin: auto;
+    text-align: center;
+    display: block;  
+    width: 7em;
+    height: auto;
+    padding-top: 1.5em;
+}   
+*/
+
     
 .nav ul {
     padding: 0;
@@ -182,6 +243,7 @@ figcaption {
     color: #fff;
 }
 
+
 .titles {
     text-align: center;
     margin: 0;
@@ -205,26 +267,7 @@ figcaption {
     list-style: none;
     text-align: center;
 }  
-
-.button {
-    border-radius: 50%;
-    width: 90px;
-    height: 90px;
-    border: 3px solid #fff;
-    background: #97140B;
-    color: #fff;
-    box-shadow: 0 0 3px gray;
-    position: relative;
-    display: block;
-    margin: auto;
-    margin-top: 1em;
-    line-height: 80px;
-    text-align: center;
-}
-
-.button:hover {
-    color: #ED7F34;   
-}    
+    
 
 p strong {
     color: #ED7F34; 
@@ -263,15 +306,9 @@ input {
 .thankyou2 {
     text-align: center;
 }
+    
 
-footer {
-    background: #97140B;
-    text-align: center;
-}    
 
-.social-media {
-    width: 40px;   
-}    
 
 @media only screen and (min-width: 25em) {
     .pricing {
@@ -289,28 +326,17 @@ footer {
 
 }    
 
-@media only screen and (min-width: 38em) {
-    .log-in { 
-        margin: 0 0 0 2em;
-        padding: 3em 0 .5em 0;
-    }    
-    
-    .banner {
-        background-image: url(../images/billboard2.JPG);
-        height: 40em;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: -1rem;
-    }    
-    
+@media only screen and (min-width: 38em) {    
     .caption {
         margin-top: 12em;
     }   
     
+/*
     .logomain {
         text-align: left;    
         margin-left: 2em;
     }
+*/
     
     .subhead {
         display: block;
@@ -330,10 +356,6 @@ footer {
 }    
 
 @media only screen and (min-width: 60em) {
-    .banner {
-        height: 50em;
-    }        
-    
     .caption {
         margin-top: 22em;
     }   

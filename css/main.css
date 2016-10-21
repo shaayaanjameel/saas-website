@@ -169,29 +169,6 @@ figcaption {
   margin: 0 auto 1em;
 }
 
-footer {
-  background: #343b4d;
-  text-align: center;
-}    
-
-.footer-nav {
-  color: white;
-  border: 2px solid #fff;
-  width: 6em;
-  display: inline-block;
-  margin: 1em 0;
-  padding: .25em;
-}
-
-.footer-nav:hover {
-  background-color: #a5b2c2;
-}
-
-.social-media {
-    width: 3em;
-  margin: .5em .25em;
-}
-
 .masthead {
     background-color: #343b4d;
   padding: 1em 0;
@@ -300,36 +277,6 @@ p strong {
     color: #a5b2c2; 
     max-width: 20em;
 }    
-/*
-.nav ul {
-    padding: .25em;
-    margin: 0;
-}
-
-.nav li {
-    display: inline-block;
-  padding: .25em;
-  border: 2px solid #fff;
-}
-
-.nav a,
-.nav a:link,
-.nav a:visited {
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-}    
-
-.nav a:hover,
-.nav a:focus,
-.nav a:active {
-    background-color: #434444;
-    color: #fff;
-}
-*/
-
-
-
 
 form {
     margin: 0 auto;
@@ -357,24 +304,41 @@ input {
 
 .thankyou {
     text-align: center;
-    color: #ED7F34;
+    color: #a5b2c2;
+  margin: 3em 0 .5em;
 }    
 
 .thankyou2 {
     text-align: center;
+  margin: 0 0 4em;
+  color: #343b4d;
 }
     
-
-
-
-/*
-@media only screen and (min-width: 25em) {
-    .pricing {
-        margin: 0 auto;
-    }    
-
+footer {
+  background: #343b4d;
+  text-align: center;
 }    
-*/
+
+.footer-nav {
+  color: white;
+  border: 2px solid #fff;
+  width: 6em;
+  display: inline-block;
+  margin: 1em 0;
+  padding: .25em;
+}
+
+.footer-nav:hover {
+  background-color: #a5b2c2;
+}
+
+.social-media {
+    width: 3em;
+  margin: .5em .25em;
+}
+
+@media only screen and (min-width: 25em) {
+}    
     
 @media only screen and (min-width: 32em) {
 /*
@@ -393,14 +357,7 @@ input {
         margin-top: 12em;
     }   
 */
-    
-/*
-    .logomain {
-        text-align: left;    
-        margin-left: 2em;
-    }
-*/
-    
+  
 /*
     .subhead {
         display: block;
@@ -414,12 +371,7 @@ input {
 }
 
 @media only screen and (min-width: 50em) {
-/*
-    .questions {
-        padding-right: 2em;
-    }
-*/
-    
+  
 }    
 
 @media only screen and (min-width: 60em) {
